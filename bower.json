@@ -1,0 +1,21 @@
+{
+  "name": "angular-xregexp",
+  "description": "XRegExp validator for AngularJS",
+  "author": "Cosimo Meli",
+  "license": "MIT",
+  "homepage": "https://github.com/cosimomeli/angular-xregexp",
+  "main": "./angular-xregexp.js",
+  "ignore": [
+  ],
+  "dependencies": {
+    "angular": "^1.2.0",
+    "xregexp": "3.x"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.4.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cosimomeli/angular-xregexp.git"
+  }
+}

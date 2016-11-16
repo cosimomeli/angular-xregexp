@@ -1,0 +1,43 @@
+{
+  "name": "angular-xregexp",
+  "version": "1.0.0",
+  "main": "angular-xregexp.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cosimomeli/angular-xregexp.git"
+  },
+  "license": "MIT",
+  "files": [
+    "angular-xregexp.js",
+    "angular-xregexp.min.js",
+    "angular-xregexp.min.js.map",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "xregexp": "3.x"
+  },
+  "devDependencies": {
+    "bower": "1.x",
+    "coveralls": "2.x",
+    "grunt": "1.x",
+    "grunt-cli": "1.x",
+    "grunt-contrib-jshint": "1.x",
+    "grunt-contrib-uglify": "1.x",
+    "grunt-karma": "0.x",
+    "jasmine-core": "2.x",
+    "phantomjs-prebuilt": "2.x",
+    "karma": "1.x",
+    "karma-coverage": "1.x",
+    "karma-jasmine": "1.x",
+    "karma-phantomjs-launcher": "1.x",
+    "load-grunt-tasks": "3.x"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "bower": "node_modules/.bin/bower install",
+    "test": "node_modules/.bin/grunt test",
+    "build": "node_modules/.bin/grunt build"
+  }
+}
