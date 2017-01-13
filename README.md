@@ -18,7 +18,7 @@ Usage
 Include both **xregexp-all.js** and **angular-xregexp.js** in your application.
 
 ```html
-<script src="components/xregexp/xegexp-all.js"></script>
+<script src="components/xregexp/xregexp-all.js"></script>
 <script src="components/angular-xregexp/angular-xregexp.js"></script>
 ```
 
